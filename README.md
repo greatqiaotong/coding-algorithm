@@ -1,2 +1,2 @@
 # coding-algorithm
-Snippets for coding task solutions (leetcode)
+Solutions for coding tasks from Leetcode
