@@ -1,4 +1,4 @@
-# Find repeat numbers in an array
+# 03 - Find repeat numbers in an array
 
 ## Question 1
 > In an array with length of n, all numbers are within the range or 0 to n-1. Some numbers in the array are repeated however we don't know how many numbers are repeated, or how many times each number repeats. Please find any repeated number in the array. For example, if there is an array with length of 7 such as [2,3,1,0,2,5,3], the output repeat number should be 2 or 3.
