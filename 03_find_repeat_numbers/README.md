@@ -1,7 +1,7 @@
 # 03 - Find repeat numbers in an array
 
 ## Question 1
-> In an array with length of n, all numbers are within the range or 0 to n-1. Some numbers in the array are repeated however we don't know how many numbers are repeated, or how many times each number repeats. Please find any repeated number in the array. For example, if there is an array with length of 7 such as [2,3,1,0,2,5,3], the output repeat number should be 2 or 3.
+> In an array with length of n, all numbers are within the range or 0 to n-1. Some numbers in the array are repeated however we don't know how many numbers are repeated, or how many times each number repeats. Please find any repeated number in the array. For example, if there is an array with length of 7 such as [2,3,1,0,2,5,3], the output repeated number should be 2 or 3.
 
 ### Solution 1
 It uses hash map. Time complexity is O(n) and space complexity is O(n) as a hash map is created.
@@ -38,3 +38,7 @@ def find_repeat_number(nums):
                 nums[nums[i]] = nums[i]
                 nums[i] = temp
 ```
+
+## Question 2
+
+> In an array with length of n+1, all numbers are within the range of 1 to n. Therefore there is at least one repeated number in it. Please find any repeated number in it, but we can't change the input array. For example, if there is an array with length of 8 such as [2,3,5,4,3,2,6,7], the output repeated number should be 2 or 3.
