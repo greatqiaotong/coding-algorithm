@@ -1,5 +1,5 @@
 import pytest
-from find_repeat_numbers import *
+from find_repeat_numbers_1 import *
 
 def test_single_repeat_number():
     assert find_repeat_number([1, 2, 2, 2, 3]) == 2
