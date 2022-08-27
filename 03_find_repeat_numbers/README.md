@@ -47,13 +47,6 @@ def find_repeat_number(nums):
 This solution uses binary search. The function `count_range` is called <em>O</em>(log<em>n</em>) times for an array with length of <em>n</em>, and in each call it needs time of <em>O</em>(<em>n</em>). Therefore the total time complexity is <em>O</em>(<em>n</em>log<em>n</em>). Since no new array is created, the space complexity is <em>O</em>(1).
 ```python
 def find_repeat_number(nums: list) -> int:
-    """Find any repeat number in the given list
-
-    :param list nums: the given list with length of n+1 and range of [1,n+1]
-    :raises ValueError: array should not be empty
-    :raises ValueError: number should be within the range of 1 to n
-    :return int: any repeat number
-    """
     if len(nums) == 0:
         raise ValueError("Array should not be empty.")
     for i in range(len(nums)):
@@ -75,13 +68,6 @@ def find_repeat_number(nums: list) -> int:
 
 
 def count_range(nums: list, start: int, end: int) -> int:
-    """Count how many numbers in the list are within the given range
-
-    :param list nums: a list
-    :param int start: start of the range
-    :param int end: end of the range
-    :return int: count of numbers within the range
-    """
     count = 0
     for i in range(len(nums)):
         if start <= nums[i] <= end:
