@@ -1,5 +1,5 @@
 import pytest
-from search_in_2d_matrix import *
+from search_a_2d_matrix import *
 
 
 @pytest.fixture
