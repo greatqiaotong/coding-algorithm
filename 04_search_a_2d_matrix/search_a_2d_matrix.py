@@ -1,7 +1,7 @@
 def search_matrix(matrix: list[list[int]], target: int) -> bool:
     """Find out whether a target is in the provided matrix.
 
-    :param list[list[int]] matrix: a 2d matrix where integers in each row are sorted in ascending from left to right, 
+    :param list[list[int]] matrix: a 2d matrix where integers in each row are sorted in ascending from left to right,
                                    and integers in each column are sorted in ascending from top to bottom
     :param int target: the target number
     :raises ValueError: matrix is empty
