@@ -31,4 +31,4 @@ def replace_space(string: str) -> str:
             index_original -= 1
             index_new -= 1
     return ''.join(new_string)
-    ```
+ ```
