@@ -26,5 +26,5 @@ class Solution:
             print(head.val)
 ```
 
-## Question 2 - [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
+## Question 2 - [leetcode 206](https://leetcode.com/problems/reverse-linked-list/)
 > Given the head of a singly linked list, reverse the list, and return the reversed list.
