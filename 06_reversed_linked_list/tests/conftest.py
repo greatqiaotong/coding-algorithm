@@ -1,4 +1,5 @@
 import pytest
+from typing import Optional
 
 
 class ListNode:
@@ -14,6 +15,14 @@ def list_to_linked_list(arr):
         return ListNode(arr[0])
     else:
         return ListNode(arr[0], next=list_to_linked_list(arr[1:]))
+
+
+def linked_list_to_list(head: Optional[ListNode]) -> list:
+    arr = []
+    while head:
+        arr.append(head.val)
+        head = head.next
+    return arr
 
 
 @pytest.fixture()
