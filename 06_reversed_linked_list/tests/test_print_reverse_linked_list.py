@@ -7,6 +7,7 @@ def test_empty_linked_list_iterative(create_empty_linked_list, capfd):
     out, err = capfd.readouterr()
     assert out == ""
 
+
 def test_empty_linked_list_recursive(create_empty_linked_list, capfd):
     solution = Solution()
     solution.reverse_linked_list_recursive(create_empty_linked_list)
