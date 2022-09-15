@@ -1,5 +1,5 @@
-# Solutions for coding tasks from leetcode and 剑指offer using Python
-This repo has already got unit test for all solutions.
+# Coding algorithms
+Solutions for coding tasks from leetcode and 剑指offer using Python. This repo has also got unit tests for all solutions.
 
 ## Data structure
 3. [Find repeat numbers in an array](https://github.com/greatqiaotong/coding-algorithm/tree/main/03_find_repeat_numbers)
