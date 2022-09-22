@@ -7,3 +7,4 @@ Solutions for coding tasks from leetcode and 剑指offer using Python. This repo
 5. [Replace space in string](https://github.com/greatqiaotong/coding-algorithm/tree/main/05_replace_space_in_string)
 6. [Reversed linked list](https://github.com/greatqiaotong/coding-algorithm/tree/main/06_reversed_linked_list) ([leetcode 206](https://leetcode.com/problems/reverse-linked-list/))
 7. [Construct binary tree from preorder and inorder traversal](https://github.com/greatqiaotong/coding-algorithm/tree/main/07_construct_binary_tree_from_preorder_and_inorder_traversal)([leetcode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/))
+8. [Next node in binary tree](https://github.com/greatqiaotong/coding-algorithm/tree/main/08_next_node_in_binary_tree)
