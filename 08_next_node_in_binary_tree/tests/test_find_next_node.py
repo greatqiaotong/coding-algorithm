@@ -6,7 +6,7 @@ def to_binary_tree(items: list[int]) -> Optional[TreeNode]:
     """Create binary tree from list of values in bfs order.
     :param list[int] items: list of values
     :return Optional[TreeNode]: returned binary tree
-    """    
+    """
     n = len(items)
     if n == 0:
         return None
@@ -65,6 +65,7 @@ def test_tree_with_only_right_node():
     node = 2
     solution = Solution()
     assert solution.find_next_node(tree, node) == 3
+
 
 def test_tree_with_one_node(capfd):
     bfs = [1, None, None]

@@ -23,7 +23,7 @@ class Tree:
                 queue.append(node.left)
                 queue.append(node.right)
         return ret
-    
+
     def inorder_traversal(self):
         ret = []
 
@@ -37,14 +37,14 @@ class Tree:
         traversal(self.root)
         return ret
 
-    
+
 class Solution:
     def find_next_node(self, tree: Optional[TreeNode], node: int) -> Union[None, int]:
         t = Tree()
         t.root = tree
         inorder = t.inorder_traversal()
-        if inorder.index(node) == len(inorder)-1:
+        if inorder.index(node) == len(inorder) - 1:
             print("There is no next node.")
         else:
-            node_next = inorder[inorder.index(node)+1]
+            node_next = inorder[inorder.index(node) + 1]
             return node_next

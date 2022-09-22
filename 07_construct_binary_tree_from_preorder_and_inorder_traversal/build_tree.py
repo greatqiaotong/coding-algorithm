@@ -12,7 +12,7 @@ def to_binary_tree(items: list[int]) -> Optional[TreeNode]:
     """Create binary tree from list of values.
     :param list[int] items: list of values
     :return Optional[TreeNode]: returned binary tree
-    """    
+    """
     n = len(items)
     if n == 0:
         return None
@@ -37,7 +37,7 @@ class Solution:
         :param list[int] preorder: preorder traversal in a list
         :param list[int] inorder: inorder traversal in a list
         :return Optional[TreeNode]: binary tree
-        """        
+        """
         if not preorder or not inorder:
             return None
         index = inorder.index(preorder[0])

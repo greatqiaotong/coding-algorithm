@@ -8,7 +8,7 @@ def tree_to_list(tree: Optional[TreeNode]) -> list[int]:
 
     :param Optional[TreeNode] tree: the binary tree
     :return list[int]: returned list of values
-    """    
+    """
     items = []
     queue = [tree]
 
